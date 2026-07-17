@@ -49,7 +49,7 @@ input[type='number'] {
 
 /* Customize text colors for orders */
 .sell-order-text {
-  @apply text-[#FF5500]; /* Sell order text color */
+  @apply text-[#FF7FEB]; /* Sell order text color */
 }
 
 .buy-order-text {
@@ -58,7 +58,7 @@ input[type='number'] {
 
 /* Styles for active blinking state */
 .blinking-sell-order {
-  @apply bg-[#531326] opacity-30; /* Background color for sell orders when blinking */
+  @apply bg-[#6B1F6B] opacity-30; /* Background color for sell orders when blinking */
 }
 
 .blinking-buy-order {

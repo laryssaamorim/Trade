@@ -89,7 +89,7 @@ const QuotationBar: React.FC = () => {
         </button>
         <span
           className={`text-xs ${
-            selectedPair.variation >= 0 ? 'text-[#41E88E]' : 'text-[#FF5500]'
+            selectedPair.variation >= 0 ? 'text-[#41E88E]' : 'text-[#FF7FEB]'
           }`}
         >
           {' '}
@@ -206,7 +206,7 @@ const QuotationBar: React.FC = () => {
                   </span>
                   <span
                     className={`w-1/3 text-right ${
-                      pair.variation >= 0 ? 'text-[#41E88E]' : 'text-[#FF5500]' // Cores ajustadas
+                      pair.variation >= 0 ? 'text-[#41E88E]' : 'text-[#FF7FEB]'
                     }`}
                   >
                     {pair.variation >= 0 ? '+' : ''}

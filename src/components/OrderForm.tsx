@@ -158,7 +158,7 @@ const OrderForm: React.FC = () => {
           <div
             className={`mr-2 w-5 h-5 flex items-center justify-center rounded-md border-2 cursor-pointer ${
               conditionalSell
-                ? 'border-[#FF5500] bg-[#FF5500]'
+                ? 'border-[#FF7FEB] bg-[#FF7FEB]'
                 : 'border-[#FF7FEB]'
             }`}
             onClick={() => setConditionalSell(!conditionalSell)}

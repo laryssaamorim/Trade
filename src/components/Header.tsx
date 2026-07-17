@@ -18,7 +18,7 @@ const Header: React.FC = () => {
             >
               Trade
               {activeTab === 'Trade' && (
-                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF5500]" />
+                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF7FEB]" />
               )}
             </button>
             <button
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
             >
               Markets
               {activeTab === 'Markets' && (
-                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF5500]" />
+                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF7FEB]" />
               )}
             </button>
           </nav>

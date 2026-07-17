@@ -120,6 +120,7 @@ const OrderBook: React.FC = () => {
               className={`absolute left-0 top-0 h-full w-1/2 rounded-full transition-transform duration-300 ease-in-out`}
               style={{
                 backgroundColor: '#4D2175',
+                color: trade.type === 'buy' ? '#41E88E' : '#FF7FEB',
                 transform:
                   activeTradeTab === 'Market Trades'
                     ? 'translateX(0)'

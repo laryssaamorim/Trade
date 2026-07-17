@@ -82,7 +82,7 @@ const Tabs: React.FC<TabsProps> = ({ onCollapse }) => {
             >
               {tab}
               {activeTab === tab && (
-                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF5500]" />
+                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF7FEB]" />
               )}
             </button>
           ))}
@@ -92,7 +92,7 @@ const Tabs: React.FC<TabsProps> = ({ onCollapse }) => {
             <div
               className={`mr-2 w-5 h-5 flex items-center justify-center rounded-md border-2 cursor-pointer ${
                 hideOtherPairs
-                  ? 'border-[#FF5500] bg-[#FF5500]'
+                  ? 'border-[#FF7FEB] bg-[#FF7FEB]'
                   : 'border-[#FF7FEB]'
               }`}
               onClick={() => setHideOtherPairs(!hideOtherPairs)}
